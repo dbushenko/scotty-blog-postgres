@@ -7,11 +7,7 @@ import Domain
 import Web.Scotty.Internal.Types (ActionT)
 import GHC.Generics (Generic)
 import Control.Monad.IO.Class
--- import qualified Database.MySQL.Base as M
 import Database.PostgreSQL.Simple
--- import Database.MySQL.Simple.Types
--- import Database.MySQL.Simple.QueryResults
--- import Database.MySQL.Simple.QueryParams
 import Data.Pool(Pool, createPool, withResource)
 import qualified Data.Text.Lazy as TL
 import qualified Data.Text.Lazy.Encoding as TL
